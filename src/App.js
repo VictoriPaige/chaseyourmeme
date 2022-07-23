@@ -1,7 +1,8 @@
 import './App.css';
+import Container from './components/container';
 
 import Header from './components/header';
-import Search from './components/search';
+
 
 
 
@@ -9,8 +10,8 @@ function App() {
   return (
     <div className="App">
     <Header/>
-   
-    <Search/>
+   <Container/>
+    
     </div>
   );
 }
