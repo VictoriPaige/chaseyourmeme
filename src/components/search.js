@@ -13,7 +13,7 @@ useEffect(()=>{setMemesToDisplay(props.memes)}, [props.memes])
  function handleChange(event){
         event.preventDefault()
    const filteredValue = event.target.value.toLowerCase()
-   const updatedFilter = memesToDisplay.filter((meme)=>{(meme.name.toLowerCase().includes(filteredValue))})
+   const updatedFilter = props.memes.filter((meme) => meme.name.toLowerCase().includes(filteredValue));
     setMemesToDisplay( _prevState =>updatedFilter)
 // console.log(updatedFilter)
  }
