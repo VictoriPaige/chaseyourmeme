@@ -9,8 +9,9 @@ import Header from './components/header';
 function App() {
   return (
     <div className="App">
-    <Header/>
-   <Container/>
+
+      <Header/>
+        <Container/>
     
     </div>
   );

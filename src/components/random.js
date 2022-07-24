@@ -36,6 +36,7 @@ function handleChange(event) {
     return(
         <main>
         <div className = "form">
+            
             <input type='text'
             placeholder='Top Text'
             className ="form--input"
