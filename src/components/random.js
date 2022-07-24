@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import { RandomMeme } from "../services/constants";
+
 
 export default function Random(){
     const [meme, setMeme] = useState({
