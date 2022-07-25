@@ -33,7 +33,7 @@ In the near future, Chase Your Meme with be able to adapt to having a downloadab
 
 ### API Used
 
-https://api.imgflip.com/get_memes
+Imgflip: https://api.imgflip.com/get_memes
 
 ### `npm start`
 Getting Started with Create React App
