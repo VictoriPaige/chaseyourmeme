@@ -1,11 +1,32 @@
 # Chase Your Meme
 
-Welcome to Chase Your Meme which was designed for users to create and explore their own comedic endevors. Chase Your Meme is powered by a curated selection of the top 100 memes trending in the last 30 days on the internet. You can pick by randomly generating a meme, or by searching for your meme of choice using the search menu.
+Welcome to Chase Your Meme!
+
+Our system was designed for users to create and explore their own comedic endevors of the top trending memes. Chase Your Meme is powered by imgflip API call that returns a curated selection of the top 100 memes trending in the last 30 days on the internet. The system is designed for users to decide whether they want to pick their memes randomly by using our randomly selected meme generation page, or by filtering for their meme of choice using our search menu.
+
+## Wireframes and Mockups
+
+![Home Page](https://user-images.githubusercontent.com/105768093/180718437-1492bbd8-0885-4274-9b9d-980484733e15.png)
+
+![Random Page](https://user-images.githubusercontent.com/105768093/180718697-11d974ad-4941-4467-8fd5-c4534fb92cbe.png)
+
+![Search Page](https://user-images.githubusercontent.com/105768093/180718856-0001b47c-db8a-49af-b659-06bf83d7ad48.png)
 
 
-## Available Scripts
+## MVP
 
-In the project directory, you can run:
+Chase Your Meme was made to drive personal creativity by generating your own personal take on the hottest memes currently used. Users can generate a random image to use for the meme template and come up with their own spin for the caption, or they can use our database filled with 100 of the most popular memes.
+
+## Post-MVP
+
+In the near future, Chase Your Meme with be able to adapt to having a downloadable feature for users to be able to share their created work on other social media platforms. In the distant future, Chase Your Memes will be able to provide other forms of media such as gifs, reels, charts, posters, etc. 
+
+
+## Example
+
+<a href="https://imgflip.com/i/6nte2i"><img src="https://i.imgflip.com/6nte2i.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
+
+## Development Process
 
 ### `npm start`
 Getting Started with Create React App
@@ -71,4 +92,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-<a href="https://imgflip.com/i/6nte2i"><img src="https://i.imgflip.com/6nte2i.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
+
