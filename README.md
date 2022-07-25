@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-![Guy with a sign meme](https://imgflip.com/i/6nte2i)
+<a href="https://imgflip.com/i/6nte2i"><img src="https://i.imgflip.com/6nte2i.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
