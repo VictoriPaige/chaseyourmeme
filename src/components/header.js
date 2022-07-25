@@ -6,7 +6,7 @@ function Header(){
     return(
         <div>
             <header className="header">
-                <h1><b>Chase Your Meme</b></h1>
+                <h1 className="Title"><b>Chase Your Meme</b></h1>
                 </header>
             <nav id="nav"><b>
                 <NavLink id="HomeTab" to={"/"} style={({isActive})=>{return{color:isActive ? 'red': "black"}}}>Home Page</NavLink>
