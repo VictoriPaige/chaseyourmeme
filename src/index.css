@@ -18,8 +18,10 @@ code {
 
 .header{
 display: flex;
-
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 /* width:; */
+font-size: larger;
 justify-content: center;
 color: white;
 size: 0px;
@@ -44,12 +46,16 @@ a{
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  font-size: medium;
+  max-width: 50vw;
+  margin: 0 auto;
 }
 
 .form--button{
 border-radius: 5px;
 border: 1px solid;
 text-indent:5px ;
+font-size: medium;
 
 }
 
@@ -59,19 +65,31 @@ text-indent:5px ;
   color: white;
   border: none;
   cursor: pointer;
+  font-size: medium;
 }
 
 .meme {
+  grid-column: 1/-1;
   position: relative;
 }
 
 .meme--image {
+  
   max-width: 100%;
   border-radius: 3px;
-  /* position: absolute; */
+ /* position: absolute; */
+
+}
+.search--img{
+  width: 600px;
+ 
+}
+.memecard{
+  border:solid white 20px;
+  padding: 20px;
 }
 
-.meme--text {
+.meme--text{
   position: absolute;
   width: 80%;
   text-align: center;
@@ -96,15 +114,13 @@ text-indent:5px ;
       2px 2px 5px #000;
 }
 
-.bottom {
-  bottom: 0;
-}
-
 .top {
   top: 0;
 }
-
-.Title{
+.bottom {
+  bottom: 0;
+}
+.title{
   text-decoration: none;
   font-size:30px;
 }
@@ -120,9 +136,17 @@ h1{
   
 }
 .welcome{
-  margin: 20px;
+  margin: 60px;
   color: white;
   border: solid white 15px;
   padding:60px;
   font-size:30px ;
+}
+
+
+.searchfilter{
+  margin: 50px;
+  width: 50%;
+  height: 30px;
+  font-size: medium;
 }

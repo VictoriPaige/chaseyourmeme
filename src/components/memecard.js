@@ -4,12 +4,12 @@ export default function Memecard({memes}){
 
 return(
 
-    <div>
+    <div >
     {memes.map((meme,index) =>
         {return(
-            <div key={index}>
+            <div className="memecard" key={index}>
                     <h2>{meme.name}</h2>
-                    <img alt='' src={meme.url}/>
+                    <img className="search--img" alt='' src={meme.url}/>
     </div>
 
     )}

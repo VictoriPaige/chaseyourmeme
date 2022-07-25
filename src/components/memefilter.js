@@ -6,7 +6,7 @@ export default function MemeFilter(props){
 
         <div className = "searchbar">
             <form>
-                <input  type='text' placeholder="Search Memes..." value={props.value} name='memefilter' onChange={props.handleChange}/>
+                <input className="searchfilter" type='text' placeholder="Search Memes..." value={props.value} name='memefilter' onChange={props.handleChange}/>
             </form>
         </div>
     )
