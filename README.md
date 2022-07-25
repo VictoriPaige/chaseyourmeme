@@ -1,13 +1,14 @@
-# Getting Started with Create React App
+# Chase Your Meme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Chase Your Meme which was designed for users to create and explore their own comedic endevors. Chase Your Meme is powered by a curated selection of the top 100 memes trending in the last 30 days on the internet. You can pick by randomly generating a meme, or by searching for your meme of choice using the search menu.
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
+Getting Started with Create React App
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -68,3 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+![Guy with a sign meme](https://imgflip.com/i/6nte2i)
