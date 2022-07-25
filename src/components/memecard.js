@@ -9,7 +9,7 @@ return(
         {return(
             <div key={index}>
                     <h2>{meme.name}</h2>
-                    <img src={meme.url}/>
+                    <img alt='' src={meme.url}/>
     </div>
 
     )}

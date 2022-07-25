@@ -9,10 +9,12 @@ export default function Random(){
     })
     const [allMemes, setAllMemes] = useState([])
 
-    useEffect(async () => {
-        const res = await fetch("https://api.imgflip.com/get_memes")
+    useEffect( () => {
+        let random = async()=> { const res = await fetch("https://api.imgflip.com/get_memes")
         const data = await res.json()
-        setAllMemes(data.data.memes)
+        setAllMemes(data.data.memes)}
+
+        random()
     }, [])
 function getMemeImage() {
     const randomNumber = Math.floor(Math.random() * allMemes.length)
@@ -54,7 +56,7 @@ function handleChange(event) {
             <button className="form--button"
             onClick={getMemeImage}>Get a New Meme Image</button>
                <div className="meme">
-               <img src={meme.randomImage} className="meme--image" />
+               <img alt='' src={meme.randomImage} className="meme--image" />
                <h2 className="meme--text top">{meme.topText}</h2>
                <h2 className="meme--text bottom">{meme.bottomText}</h2>
            </div>
