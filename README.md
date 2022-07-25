@@ -31,6 +31,10 @@ In the near future, Chase Your Meme with be able to adapt to having a downloadab
 
 ## Development Process
 
+### API Used
+
+https://api.imgflip.com/get_memes
+
 ### `npm start`
 Getting Started with Create React App
 Runs the app in the development mode.\
