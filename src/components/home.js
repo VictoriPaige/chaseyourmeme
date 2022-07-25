@@ -2,7 +2,7 @@ export default function Home(){
 
     return(
 
-        <div>
+        <div className="welcome">
 
             <h1><b>Express Yourself!</b></h1>
  
