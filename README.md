@@ -4,7 +4,10 @@ Welcome to Chase Your Meme!
 
 Our system was designed for users to create and explore their own comedic endevors of the top trending memes. Chase Your Meme is powered by imgflip API call that returns a curated selection of the top 100 memes trending in the last 30 days on the internet. The system is designed for users to decide whether they want to pick their memes randomly by using our randomly selected meme generation page, or by filtering for their meme of choice using our search menu.
 
-## Wireframes and Mockups
+## Component Hierarchy and Wireframes 
+
+<img width="2275" alt="Component Hierarchy (1)" src="https://user-images.githubusercontent.com/105768093/180806029-490c4d85-bd82-4963-a0bc-a0785835344d.png">
+
 
 ![Home Page](https://user-images.githubusercontent.com/105768093/180718437-1492bbd8-0885-4274-9b9d-980484733e15.png)
 
