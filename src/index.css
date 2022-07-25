@@ -17,21 +17,25 @@ code {
 
 .header{
 display: flex;
+/* width:; */
 justify-content: center;
 color: white;
+size: 0px;
 background: radial-gradient(rgb(255, 0, 179), rgb(183, 255, 0), rgb(0, 113, 128));
 /* background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%) ; */
 
 }
 #nav{
-
   display: flex;
   justify-content: center;
   background-color:rgb(183, 255, 0) ;
+  padding: 10px;
   
 }
-.a{
-  margin-top: auto;
+
+a{
+  margin-left: 40px;
+  justify-content: space-between;
 }
 
 .form{
@@ -96,4 +100,12 @@ text-indent:5px ;
 
 .top {
   top: 0;
+}
+
+h1{
+  padding: 20px;
+}
+
+.searchbar{
+  
 }
